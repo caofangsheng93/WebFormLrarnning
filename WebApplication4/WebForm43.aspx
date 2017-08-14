@@ -8,7 +8,7 @@
     <title>自定义验证控件</title>
     <script type="text/javascript">
         <!--能够被5整除-->
-        function validateNumber(oSrc,args) {
+        function validateNumber(oSrc,args) {               
             args.IsValid = (args.Value % 5 == 0);
 
 
