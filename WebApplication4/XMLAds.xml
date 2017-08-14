@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements >
+	<!--广告一-->
+	<Ad>
+		<ImageUrl>~/Image/baidu.jpg</ImageUrl>
+		<NavigateUrl>https://www.baidu.com</NavigateUrl>
+		<AlternateText>Beginning ASP.NET</AlternateText>
+		<Impressions>70</Impressions>
+		<Keyword>ASP.NET</Keyword>
+	</Ad>
+	<!--广告二-->
+	<Ad>
+		<ImageUrl>~/Image/新浪.jpg</ImageUrl>
+		<NavigateUrl>http://www.sina.com.cn/</NavigateUrl>
+		<AlternateText>XinLang</AlternateText>
+		<Impressions>50</Impressions>
+		<Keyword>新浪网</Keyword>
+	</Ad>
+</Advertisements>

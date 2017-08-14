@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--定义XML 根节点-->
+<Books>
+	<Book Title="Professional ASP.NET 4.5" Year="2013" Price="$59.19"></Book>
+	<Book Title="Beginning ASP.NET 4.5" Year="2012" Price="$58.12"></Book>
+	<Book Title="精通 ASP.NET MVC 5" Year="2016" Price="$60.12"></Book>
+</Books> 
