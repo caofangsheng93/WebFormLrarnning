@@ -10,10 +10,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
         <asp:BulletedList ID="BulletedList1" runat="server" DataSourceID="XmlDataSource1" DataTextField="Title">
         </asp:BulletedList>
-    
     </div>
         <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/book.xml" XPath="Books/Book"></asp:XmlDataSource>
     </form>

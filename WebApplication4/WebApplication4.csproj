@@ -70,8 +70,11 @@
     <Content Include="HelloWorld.js" />
     <Content Include="image.txt" />
     <Content Include="Image\baidu.jpg" />
+    <Content Include="Image\error.jpg" />
     <Content Include="Image\Search.png" />
     <Content Include="Image\新浪.jpg" />
+    <Content Include="MyUserControl.ascx" />
+    <Content Include="NewUserControl.ascx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm10.aspx" />
@@ -112,7 +115,15 @@
     <Content Include="WebForm42.aspx" />
     <Content Include="WebForm43.aspx" />
     <Content Include="WebForm44.aspx" />
+    <Content Include="WebForm45.aspx" />
+    <Content Include="WebForm46.aspx" />
+    <Content Include="WebForm47.aspx" />
+    <Content Include="WebForm48.aspx" />
+    <Content Include="WebForm49.aspx" />
     <Content Include="WebForm5.aspx" />
+    <Content Include="WebForm50.aspx" />
+    <Content Include="WebForm51.aspx" />
+    <Content Include="WebForm52.aspx" />
     <Content Include="WebForm6.aspx" />
     <Content Include="WebForm7.aspx" />
     <Content Include="WebForm8.aspx" />
@@ -124,6 +135,20 @@
     <Content Include="XSLT_My.xslt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyUserControl.ascx.cs">
+      <DependentUpon>MyUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyUserControl.ascx.designer.cs">
+      <DependentUpon>MyUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NewUserControl.ascx.cs">
+      <DependentUpon>NewUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewUserControl.ascx.designer.cs">
+      <DependentUpon>NewUserControl.ascx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -397,12 +422,68 @@
     <Compile Include="WebForm44.aspx.designer.cs">
       <DependentUpon>WebForm44.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm45.aspx.cs">
+      <DependentUpon>WebForm45.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm45.aspx.designer.cs">
+      <DependentUpon>WebForm45.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm46.aspx.cs">
+      <DependentUpon>WebForm46.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm46.aspx.designer.cs">
+      <DependentUpon>WebForm46.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm47.aspx.cs">
+      <DependentUpon>WebForm47.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm47.aspx.designer.cs">
+      <DependentUpon>WebForm47.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm48.aspx.cs">
+      <DependentUpon>WebForm48.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm48.aspx.designer.cs">
+      <DependentUpon>WebForm48.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm49.aspx.cs">
+      <DependentUpon>WebForm49.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm49.aspx.designer.cs">
+      <DependentUpon>WebForm49.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm5.aspx.cs">
       <DependentUpon>WebForm5.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebForm5.aspx.designer.cs">
       <DependentUpon>WebForm5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm50.aspx.cs">
+      <DependentUpon>WebForm50.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm50.aspx.designer.cs">
+      <DependentUpon>WebForm50.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm51.aspx.cs">
+      <DependentUpon>WebForm51.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm51.aspx.designer.cs">
+      <DependentUpon>WebForm51.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm52.aspx.cs">
+      <DependentUpon>WebForm52.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm52.aspx.designer.cs">
+      <DependentUpon>WebForm52.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm6.aspx.cs">
       <DependentUpon>WebForm6.aspx</DependentUpon>
